@@ -5,10 +5,9 @@
 
 <hibernate-configuration>
 	<session-factory>
-
-		<property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-		<property name="connection.url">jdbc:hsqldb:hsql://localhost/</property>
-		<property name="connection.username">sa</property>
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">jdbc:postgresql://manny.db.elephantsql.com:5432/ucpwsufh</property>
+		<property name="connection.username">ucpwsufh</property>
 		<property name="connection.password"></property>
 
 		<!-- JDBC connection pool (use the built-in) -->

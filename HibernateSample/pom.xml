@@ -13,7 +13,7 @@
 	<properties>
 		<maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
 		<junit.version>4.12</junit.version>
-		<hibernate.version>5.1.0.Final</hibernate.version>
+		<hibernate.version>5.4.10.Final</hibernate.version>
 		<hsqldb.verson>2.3.3</hsqldb.verson>
 	</properties>
 
@@ -36,6 +36,14 @@
 			<artifactId>hsqldb</artifactId>
 			<version>${hsqldb.verson}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.9</version>
+		</dependency>
+
 
 	</dependencies>
 
